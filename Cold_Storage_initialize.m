@@ -13,7 +13,7 @@ SA = (l * b) + (b * h) + (h * l);
 
 % Condition
 Ambient_Temp = 35;
-Room = 12.5;
+Room_Temp = 12.5;
 RH = 92;
 
 % Refrigerator
