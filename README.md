@@ -7,6 +7,10 @@ The refrigeration cycle was coupled with a finite-volume cold-room model contain
 
 ![Cold Room Thermal Model](./images/Cold_room_thermal_model.png)
 
+A hysteresis-based ON/OFF temperature controller was implemented using room temperature feedback. The controller activates refrigeration when the room temperature exceeds 13.5°C and deactivates it when the temperature falls below 11.5°C. The simulation successfully maintained the room temperature within the defined control band. However, the controller produced frequent compressor cycling due to the relatively small thermal inertia of the room air. This identified the need for compressor minimum ON/OFF time to prevent short-cycling.
+
+![Hysterisis-based Temperature Controller](./images/Hysterisis-based_temp_controller.png)
+
 ## Model Parameters
 | Parameter | Value |
 |---|---:|
