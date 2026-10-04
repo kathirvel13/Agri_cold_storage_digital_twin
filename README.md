@@ -20,13 +20,9 @@ A vapor-compression refrigeration cycle was developed in MATLAB/Simulink using S
 ## Results
 The evaporator provided approximately 4 kW of cooling, while the compressor consumed approximately 1.6 kW of power. The condenser rejected approximately 5.6 kW of heat to the ambient side. The results satisfy the expected refrigeration energy balance, where condenser heat rejection is approximately equal to the sum of evaporator cooling and compressor power. The resulting coefficient of performance was approximately 2.5.
 
-\[
-Q_c=Q_e+P_{comp}
-\]
+$$Q_c = Q_e + P_{comp}$$
 
-\[
-COP=\frac{Q_e}{P_{comp}}
-\]
+$$COP = \frac{Q_e}{P_{comp}}$$
 
 ### Scope Output
 1. Condenser heat rejection
