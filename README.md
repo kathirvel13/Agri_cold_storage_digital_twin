@@ -3,6 +3,10 @@ A vapor-compression refrigeration cycle was developed in MATLAB/Simulink using S
 
 ![Refrigeration Cycle Model](./images/Refrigeration_Cycle_Model.png)
 
+The refrigeration cycle was coupled with a finite-volume cold-room model containing the storage air volume, tomato thermal mass, wall heat transfer, and room-to-produce convection. A 1000 kg tomato load initially at 25°C was subjected to refrigeration under a 35°C ambient condition. The six-hour simulation demonstrated continuous cooling of both the room air and stored produce. Refrigeration cooling capacity and compressor power decreased as the thermal load reduced. The model currently operates in open loop; therefore, the room temperature continues below the desired storage setpoint. Temperature regulation will be implemented in the subsequent control stage.
+
+![Cold Room Thermal Model](./images/Cold_room_thermal_model.png)
+
 ## Model Parameters
 | Parameter | Value |
 |---|---:|
