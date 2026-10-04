@@ -13,7 +13,7 @@ Produce_Area = 100; % m^2, initial effective area
 % Cold-room wall
 Wall_U = 0.25; % W/(m^2*K)
 
-% Room Dimensions
+% Room Dimensions (m)
 l = 4;
 b = 3;
 h = 2.5;
